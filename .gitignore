@@ -1,0 +1,35 @@
+# Environnement virtuel Python
+venv/
+env/
+.venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Base de données SQLite
+tasks.db
+
+# Environnement
+.env
+
+# IDE
+.vscode/
+.idea/
+# Données persistantes Docker
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Fichiers d'environnement
+.env.*
+!.env.example

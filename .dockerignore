@@ -1,0 +1,52 @@
+
+# ==========================================
+# TASKFLOW - DOCKERIGNORE
+# ==========================================
+
+# Environnements virtuels Python
+venv/
+env/
+.venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Git
+.git/
+.gitignore
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers locaux de développement
+*.log
+.env
+.env.*
+!.env.example
+
+# Bases de données SQLite
+tasks.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Dossier de données persistantes
+data/
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.swp
+
+# Fichiers de documentation locale
+.vscode/
+.idea/
+
+# Docker Compose
+compose.override.yaml
